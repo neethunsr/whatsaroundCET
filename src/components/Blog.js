@@ -1,5 +1,6 @@
 import React from 'react';
 import blog from './images/logo-blog.svg'
+import add from './images/add-button.svg'
 import './Blog.css'
 function Blog(props) {
     return (
@@ -48,6 +49,7 @@ function Blog(props) {
                 </div>
             </div>
             </div>
+            <img className="add" src={add} alt="add-button"></img>
             </div>
         </div>
     );
