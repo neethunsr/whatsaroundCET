@@ -2,7 +2,7 @@ import React from 'react';
 
 function Form(props) {
     return (
-        <div>
+        <div className="container">
         <form className="row g-3">
         <div className="col-md-6">
             <label for="inputEmail4" className="form-label">Title</label>
@@ -10,11 +10,11 @@ function Form(props) {
         </div>
         <div className="col-md-6">
         </div>
-        <div class="col-12">
+        <div className="col-md-6">
             <label for="inputAddress" class="form-label">Blog content</label>
             <input style={{height: "200px"}} type="text" class="form-control" id="inputAddress" placeholder=""></input>
         </div>
-    
+        <div ></div>
         <div className="col-md-4">
             <label for="inputState" class="form-label">Type</label>
             <select id="inputState" class="form-select">

@@ -7,7 +7,7 @@ function Blog(props) {
     return (
         <div>
             <div className="blog container row">
-            <img src={blog} alt="blog-cet"></img>
+            <img src={blog} className="blog-cet" alt="blog-cet"></img>
             <div className="col-8">
                 <div class="card">
                     <div class="card-header">
