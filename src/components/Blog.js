@@ -1,7 +1,8 @@
 import React from 'react';
-import blog from './images/logo-blog.svg'
-import add from './images/add-button.svg'
-import './Blog.css'
+import blog from './images/logo-blog.svg';
+import add from './images/add-button.svg';
+import './Blog.css';
+import { NavLink } from 'react-router-dom';
 function Blog(props) {
     return (
         <div>
@@ -49,9 +50,12 @@ function Blog(props) {
                     </div>
                 </div>
             </div>
-            <div className="add col-4">
-            <img src={add} alt="add-button"></img>
+            <div className="plus-btn add col-4">
+                <NavLink exact to='/form'>
+                    <img src={add} alt="add-button"></img>
+                </NavLink>    
             </div>
+
             </div>
         </div>
     );
