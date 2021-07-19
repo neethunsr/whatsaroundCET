@@ -1,0 +1,26 @@
+.logo-home {
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.img-cet {
+	margin-top: 25px;
+	padding-left: 120px;
+}
+.img-circle {
+	padding-left: 10%;
+	margin-top: 50px;
+}
+.explore {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding-left: 30%;
+}
+h3 {
+	justify-content: center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 48px;
+	/* identical to box height */
+	color: #084b83;
+}
