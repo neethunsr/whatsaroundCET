@@ -6,9 +6,11 @@ import logoTravel from './images/logo-travel.svg'
 const cardItems = [
     {name: 'Kovalam', imgsrc: '/images/k1.jpg', rs: '150', dis: '12'},
     {name: 'Ponmudi', imgsrc: '/images/k2.jpg', rs: '300', dis: '45'},
-    {name: 'Meenmutti', imgsrc: '/images/k3.jpg', rs: '250', dis: '40'}
-    // {name: 'BOOKS', imgsrc: '/books', rs: 'bi bi-book', dis: '12'},
-    // {name: 'FOOD', imgsrc: '/food', rs: 'bi bi-cup-straw', dis: '12'}
+    {name: 'Meenmutti', imgsrc: '/images/k3.jpg', rs: '250', dis: '40'},
+    {name: 'Rosemala', imgsrc: '/images/k4.jpg', rs: '250', dis: '40'},
+    {name: 'Vazhvanthol', imgsrc: '/images/k5.jpg', rs: '250', dis: '40'},
+    {name: 'Varkala', imgsrc: '/images/k6.jpg', rs: '250', dis: '40'},
+    {name: 'Kanakakunnu', imgsrc: '/images/k7.jpg', rs: '250', dis: '40'}
 ];
 
 function Travel(props) {
