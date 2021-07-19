@@ -18,7 +18,7 @@ function App() {
           console.log(inactive);
           setInactive(inactive);
         }} />
-        <div className={`container ${inactive ? "inactive" : ""}`}>
+        <div className={`box ${inactive ? "inactive" : ""}`}>
         <Switch>
             <Route exact path={'/'}>
               <Home />

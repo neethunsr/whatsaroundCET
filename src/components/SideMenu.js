@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react';
 import './App.css';
 import MenuItem from './MenuItem';
-import logo from './user.png';
+import logo from './images/user.png';
 
 const menuItems = [
     {name: 'HOME', to: '/', iconClassName: 'bi bi-house'},

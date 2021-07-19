@@ -13,7 +13,7 @@ li {
 }
 
 body {
-	background-color: #eee;
+	background-color: #fff;
 	font-family: "Open Sans", sans-serif;
 }
 
@@ -119,12 +119,12 @@ body {
 	background: rgb(61, 78, 238);
 }
 
-.container {
+.box {
 	margin-left: 300px;
 	transition: margin-left 0.2s ease-in;
 	padding: 50px;
 }
 
-.container.inactive {
+.box.inactive {
 	margin-left: 80px;
 }
