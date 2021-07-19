@@ -5,19 +5,38 @@
   width: 300px;
   margin-left: 50px;
   margin-bottom: 50px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  border-radius: 10px;
 }
 
 .card-container .img-container {
   width: 100%;
-  background: chartreuse;
+  /* height: 50%; */
+  /* background: chartreuse; */
+}
+
+.card-container .img-container img {
+  border-radius: 10px 10px 0px 0px;
 }
 
 .card-container .card-title {
-  margin-top: 10px;
-  background: coral;
+  margin-top: 3px;
+  /* background: coral; */
 }
 .card-container .card-title h3 {
+  margin-left: 20px;
+}
+
+.card-container .card-footer {
+  /* background: burlywood; */
+  margin-top: 80px;
+}
+
+.card-container .card-footer .money {
+  display: inline-block;
+}
+
+.card-container .card-footer .dist {
+  display: inline-block;
+  margin-left: 120px;
 }
