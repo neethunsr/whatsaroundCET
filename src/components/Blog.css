@@ -24,3 +24,10 @@
 	background-color: #084b83;
 	border-radius: 10px;
 }
+
+.add {
+	z-index: 999;
+	position: fixed;
+	margin-top: 800px;
+	margin-left: 900px;
+}
