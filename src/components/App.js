@@ -6,6 +6,7 @@ import Food from './Food';
 import Travel from './Travel';
 import Books from './Books';
 import Blog from './Blog';
+import Form from './Form';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route path={'/food'}>
               <Food />
+            </Route>
+            <Route path={'/form'}>
+              <Form />
             </Route>
         </Switch>
         </div>
