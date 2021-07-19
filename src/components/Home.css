@@ -4,8 +4,8 @@
 	margin-bottom: 20px;
 }
 .img-cet {
-	margin-top: 65px;
-	height: 100%;
+	margin-top: 80px;
+	width: 100%;
 	padding-left: 120px;
 }
 .img-circle {
@@ -27,7 +27,7 @@ h3 {
 	color: #084b83;
 }
 .btn-outline-primary {
-	margin-top: 50px;
+	margin-top: 40px;
 	text-align: center;
 	color: #084b83;
 	padding: 10px 20px;
