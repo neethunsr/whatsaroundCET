@@ -13,7 +13,7 @@ const cardItems = [
 
 function Travel(props) {
     return (
-        <div className="travel-container">
+        <div className="travel container">
             <div className="header">
                 <div className="travel-logo">
                     <img src={logoTravel} />

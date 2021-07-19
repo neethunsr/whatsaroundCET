@@ -14,7 +14,7 @@ function Home(props) {
                 </div>
                 <div className="col col-lg-1"></div>
                 <div className="col col-xs-12 col-lg-7">
-                <img src={cet} className="img-cet"></img>
+                <img src={cet} className="img-cet" alt="cet"></img>
                 </div>
                 </div>
             </div>
@@ -28,10 +28,6 @@ function Home(props) {
                 
             </div>
             </section>
-            
-
-            
-            
         </div>
     );
 }
