@@ -1,4 +1,5 @@
 import React,{useEffect, useState} from 'react';
+import './App.css';
 import MenuItem from './MenuItem';
 import logo from './user.png';
 
