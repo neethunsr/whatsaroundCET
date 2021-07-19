@@ -7,7 +7,9 @@ import Travel from './Travel';
 import Books from './Books';
 import Blog from './Blog';
 import Form from './Form';
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import Login from "./login_component";
+import SignUp from "./signup_component";
+import {BrowserRouter as Router,Switch,Route, Link} from "react-router-dom";
 
 function App() {
   const [inactive, setInactive] = useState(false);
@@ -48,5 +50,21 @@ function App() {
     </div>
   );
 }
+
+// function App() {
+//   return (<Router>
+//     <div className="App">
+//       <div className="auth-wrapper">
+//         <div className="auth-inner">
+//           <Switch>
+//             <Route exact path='/' component={Login} />
+//             <Route path="/sign-in" component={Login} />
+//             <Route path="/sign-up" component={SignUp} />
+//           </Switch>
+//         </div>
+//       </div>
+//     </div></Router>
+//   );
+// }
 
 export default App;
