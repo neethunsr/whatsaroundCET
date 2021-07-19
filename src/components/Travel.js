@@ -5,7 +5,7 @@ import logoTravel from './images/logo-travel.svg'
 
 function Travel(props) {
     return (
-        <div className="travel-container">
+        <div className="travel container">
             <div className="header">
                 <div className="travel-logo">
                     <img src={logoTravel} />

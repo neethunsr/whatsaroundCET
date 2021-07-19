@@ -1,14 +1,12 @@
-.travel-container {
-  /* background: blue; */
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
+.travel {
+	position: fixed;
+	top: 0;
+	margin-left: 150px;
 }
 
 .travel-logo {
-  right: -50px;
+	right: -50px;
 }
 .travel-body {
-  margin-top: 3%;
+	margin-top: 3%;
 }
