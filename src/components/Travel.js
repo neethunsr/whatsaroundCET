@@ -22,8 +22,6 @@ function Travel(props) {
                 </div>
             </div>
             <div className="travel-body">
-            {/* <Card name='Kovalam' imgsrc='/images/k1.jpg' rs='200' dis='12' />
-            <Card name='Kovalam' imgsrc='/images/k1.jpg' rs='200' dis='12' /> */}
             {cardItems.map((cItem, index) => (
                         <Card 
                             key={index}

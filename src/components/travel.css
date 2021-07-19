@@ -1,12 +1,12 @@
 .travel {
-	position: fixed;
-	top: 0;
-	margin-left: 150px;
+  position: absolute;
+  top: 0;
+  margin-left: 150px;
 }
 
 .travel-logo {
-	right: -50px;
+  right: -50px;
 }
 .travel-body {
-	margin-top: 3%;
+  margin-top: 3%;
 }
