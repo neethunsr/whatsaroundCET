@@ -2,7 +2,7 @@ import React from 'react';
 
 function Form(props) {
     return (
-        <div>
+        <div className="container">
         <form className="row g-3">
         <div className="col-md-6">
             <label for="inputEmail4" className="form-label">Title</label>
