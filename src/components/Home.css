@@ -1,26 +1,36 @@
 .logo-home {
-	margin-top: 80px;
+	margin-top: 150px;
+	width: 500px;
 	margin-bottom: 20px;
 }
 .img-cet {
-	margin-top: 25px;
+	margin-top: 80px;
+	width: 100%;
 	padding-left: 120px;
 }
 .img-circle {
-	padding-left: 10%;
+	padding-left: 15%;
 	margin-top: 50px;
 }
 .explore {
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-bottom: 50px;
 	padding-left: 30%;
 }
 h3 {
 	justify-content: center;
 	font-style: normal;
-	font-weight: 500;
-	font-size: 30px;
+	font-weight: 600;
+	font-size: 34px;
 	line-height: 48px;
 	/* identical to box height */
 	color: #084b83;
+}
+.btn-outline-primary {
+	margin-top: 40px;
+	text-align: center;
+	color: #084b83;
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: 2px solid #084b83;
 }
