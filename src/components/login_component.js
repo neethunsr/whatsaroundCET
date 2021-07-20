@@ -22,7 +22,7 @@ export default function Login() {
             );
 
 			if(res.data.success) {
-				return history.push('/');
+				return history.push('/home');
 			}
 
         } catch(err) {
