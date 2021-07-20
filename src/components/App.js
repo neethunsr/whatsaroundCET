@@ -13,6 +13,7 @@ import {BrowserRouter as Router,Switch,Route, Link} from "react-router-dom";
 
 function App() {
   const [inactive, setInactive] = useState(false);
+  const [logged, setLogged] = useState(false);
 
   return (
     <div className="App">
@@ -24,7 +25,7 @@ function App() {
         <div className={`box ${inactive ? "inactive" : ""}`}>
         <Switch>
             <Route exact path={'/'}>
-              <Home />
+              <Login />
             </Route>
             <Route path={'/travel'}>
               <Travel />
@@ -41,8 +42,8 @@ function App() {
             <Route path={'/form'}>
               <Form />
             </Route>
-            <Route path={'/sign-in'}>
-              <Login />
+            <Route path={'/home'}>
+            <Home />
             </Route>
             <Route path={'/sign-up'}>
               <SignUp />
