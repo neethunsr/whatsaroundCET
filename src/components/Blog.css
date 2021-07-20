@@ -22,8 +22,14 @@
 .btn-primary {
 	background-color: #084b83;
 	border-radius: 10px;
+	margin-right: 15px;
 }
 
+.btn-outline-secondary {
+	font-weight: 500;
+	border-radius: 10px;
+	float: right;
+}
 .add {
 	z-index: 999;
 	position: fixed;

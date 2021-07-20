@@ -5,7 +5,7 @@ import './loginSignup.css'
 export default class SignUp extends Component {
     render() {
         return (
-            <div className="auth-wrapper">
+        <div className="auth-wrapper">
          <div className="auth-inner">
          <form>
                 <h3>Sign Up</h3>
