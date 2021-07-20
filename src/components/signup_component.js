@@ -11,13 +11,34 @@ export default class SignUp extends Component {
                 <h3>Sign Up</h3>
 
                 <div className="form-group">
-                    <label>First name</label>
+                    <label>Username</label>
                     <input type="text" className="form-control" placeholder="First name" />
                 </div>
-
                 <div className="form-group">
-                    <label>Last name</label>
-                    <input type="text" className="form-control" placeholder="Last name" />
+                    <label for="inputState" class="form-label">Batch</label>
+                    <select id="inputState" class="form-select">
+                    <option selected>Select your Year</option>
+                    <option>S1/S2</option>
+                    <option>S3/S4</option>
+                    <option>S5/S6</option>
+                    <option>S7/S8</option>
+                    <option>S9/S10</option>
+                    <option>Alumni</option>
+                    </select>
+                </div>
+                <div className="form-group">
+                    <label for="inputState" class="form-label">Department</label>
+                    <select id="inputState" class="form-select">
+                    <option selected>Select your Department</option>
+                    <option>ARCH</option>
+                    <option>CE</option>
+                    <option>CSE</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>MBA</option>
+                    <option>MCA</option>
+                    <option>ME</option>
+                    </select>
                 </div>
 
                 <div className="form-group">

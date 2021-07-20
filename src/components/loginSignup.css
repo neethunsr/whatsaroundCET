@@ -77,3 +77,7 @@ html,
 .forgot-password a {
 	color: #167bff;
 }
+
+.form-group {
+	padding-bottom: 10px;
+}
