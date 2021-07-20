@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import './loginSignup.css'
 
-export default class SignUp extends Component {
-    render() {
+function SignUp(props)
+    {
         return (
             <div className="auth-wrapper">
          <div className="auth-inner">
@@ -56,9 +56,10 @@ export default class SignUp extends Component {
                     <a href="#"><Link className="nav-link" to={"/sign-in"}>Sign in</Link></a>
                 </p>
             </form>
-             </div></div>
+             </div>
+             </div>
             
             
         );
     }
-}
+export default SignUp;
