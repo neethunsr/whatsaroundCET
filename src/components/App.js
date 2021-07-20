@@ -41,6 +41,12 @@ function App() {
             <Route path={'/form'}>
               <Form />
             </Route>
+            <Route path={'/sign-in'}>
+              <Login />
+            </Route>
+            <Route path={'/sign-up'}>
+              <SignUp />
+            </Route>
         </Switch>
         </div>
 

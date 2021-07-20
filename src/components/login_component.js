@@ -4,7 +4,9 @@ import './loginSignup.css'
 export default class Login extends Component {
     render() {
         return (
-            <form>
+            <div className="auth-wrapper">
+         <div className="auth-inner">
+         <form>
                 <h3>Sign In</h3>
 
                 <div className="form-group">
@@ -29,6 +31,9 @@ export default class Login extends Component {
                 <a href="#"><Link className="nav-link" to={"/sign-up"}>Sign up</Link></a>
                 </p>
             </form>
+             </div>
+             </div>
+            
         );
     }
 }
