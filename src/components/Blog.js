@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import blog from './images/logo-blog.svg';
 import add from './images/add-button.svg';
 import './Blog.css';
 import { NavLink } from 'react-router-dom';
+import axios from 'axios';
 function Blog(props) {
+
+    const [blogs, setBlogs] = useState([]);
+
+    useEffect(() => {
+        async function fetchBlogs() {
+            try {
+                const res = await axios.get('https://whatsaround-backend.herokuapp.com/blogd');
+                setBlogs(res.data);
+            } catch(err) {
+                console.log(err);
+            }
+        }
+        fetchBlogs();
+    }, [])
+
     return (
         <div>
             <div className="blog container row">
