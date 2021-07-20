@@ -4,7 +4,7 @@ import MenuItem from './MenuItem';
 import logo from './images/user.png';
 
 const menuItems = [
-    {name: 'HOME', to: '/', iconClassName: 'bi bi-house'},
+    {name: 'HOME', to: '/home', iconClassName: 'bi bi-house'},
     {name: 'TRAVEL', to: '/travel', iconClassName: 'bi bi-briefcase'},
     {name: 'BLOG', to: '/blog', iconClassName: 'bi bi-blockquote-left'},
     {name: 'BOOKS', to: '/books', iconClassName: 'bi bi-book'},
