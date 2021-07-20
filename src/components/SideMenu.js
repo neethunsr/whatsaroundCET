@@ -41,7 +41,8 @@ const SideMenu = (props) => {
                                 if(inactive){
                                     setInactive(false);
                                 }
-                            }}
+                            }
+                        }
                         />
                     ))}
                 </ul>
